@@ -12,6 +12,7 @@
 * [thebestdesigns](thebestdesigns.md)
 * [d3](d3/README.md)
   * [selectAll, enter and join](d3/selectall-enter-and-join.md)
+  * [Responsive Chart Config](d3/responsive-chart-config.md)
 * [svg](svg/README.md)
   * [Align lines of text to center in SVG](svg/align-lines-of-text-to-center-in-svg.md)
 
