@@ -1,7 +1,8 @@
 # Table of contents
 
 * [JavaScript](README.md)
-* [javascript](javascript.md)
+* [javascript](javascript/README.md)
+  * [Put callback first for elegance](javascript/put-callback-first-for-elegance.md)
 * [css](css.md)
 * [html](html.md)
 * [react](react.md)
