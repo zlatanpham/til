@@ -19,4 +19,5 @@
   * [Responsive Chart Config](d3/responsive-chart-config.md)
 * [svg](svg/README.md)
   * [Align lines of text to center in SVG](svg/align-lines-of-text-to-center-in-svg.md)
+* [Why Curry Helps](why-curry-helps.md)
 
