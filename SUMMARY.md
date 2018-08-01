@@ -3,6 +3,7 @@
 * [JavaScript](README.md)
 * [javascript](javascript/README.md)
   * [Put callback first for elegance](javascript/put-callback-first-for-elegance.md)
+  * [Why Curry Helps](javascript/why-curry-helps.md)
 * [css](css/README.md)
   * [CSS trigger](css/css-trigger.md)
 * [html](html.md)
@@ -19,5 +20,5 @@
   * [Responsive Chart Config](d3/responsive-chart-config.md)
 * [svg](svg/README.md)
   * [Align lines of text to center in SVG](svg/align-lines-of-text-to-center-in-svg.md)
-* [Why Curry Helps](why-curry-helps.md)
+* [Favoring Curry](favoring-curry.md)
 
