@@ -6,6 +6,7 @@
   * [Why Curry Helps](javascript/why-curry-helps.md)
 * [css](css/README.md)
   * [CSS trigger](css/css-trigger.md)
+  * [Column break-inside](css/column-break-inside.md)
 * [html](html.md)
 * [react](react/README.md)
   * [Single Element Pattern](react/single-element-pattern.md)
