@@ -7,9 +7,11 @@
 * [css](css/README.md)
   * [CSS trigger](css/css-trigger.md)
   * [Column break-inside](css/column-break-inside.md)
+  * [Favoring Curry](css/favoring-curry.md)
 * [html](html.md)
 * [react](react/README.md)
   * [Single Element Pattern](react/single-element-pattern.md)
+  * [Trick to measure Render calls](react/trick-to-measure-render-calls.md)
 * [vuejs](vuejs.md)
 * [UX](ux/README.md)
   * [Design Better Forms](ux/design-better-forms.md)
@@ -21,5 +23,4 @@
   * [Responsive Chart Config](d3/responsive-chart-config.md)
 * [svg](svg/README.md)
   * [Align lines of text to center in SVG](svg/align-lines-of-text-to-center-in-svg.md)
-* [Favoring Curry](favoring-curry.md)
 
