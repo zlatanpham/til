@@ -9,6 +9,7 @@
   * [CSS trigger](css/css-trigger.md)
   * [Column break-inside](css/column-break-inside.md)
   * [Cascading SVG Fill Color](css/cascading-svg-fill-color.md)
+  * [Hot-css-tips](css/hot-css-tips.md)
 * [html](html.md)
 * [react](react/README.md)
   * [Single Element Pattern](react/single-element-pattern.md)
@@ -26,4 +27,5 @@
   * [Responsive Chart Config](d3/responsive-chart-config.md)
 * [svg](svg/README.md)
   * [Align lines of text to center in SVG](svg/align-lines-of-text-to-center-in-svg.md)
+* [Lessons Learned Using React-Redux](lessons-learned-using-react-redux.md)
 
