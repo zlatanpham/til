@@ -13,6 +13,7 @@
 * [react](react/README.md)
   * [Single Element Pattern](react/single-element-pattern.md)
   * [Trick to measure Render calls](react/trick-to-measure-render-calls.md)
+  * [Useful snippets](react/useful-snippets.md)
 * [vuejs](vuejs.md)
 * [UX](ux/README.md)
   * [Design Better Forms](ux/design-better-forms.md)
