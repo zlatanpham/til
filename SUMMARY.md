@@ -6,6 +6,7 @@
   * [Why Curry Helps](javascript/why-curry-helps.md)
   * [Favoring Curry](javascript/favoring-curry.md)
   * [Null vs. Undefined](javascript/null-vs.-undefined.md)
+  * [ES6 features I missed](javascript/es6-features-i-missed.md)
 * [css](css/README.md)
   * [CSS trigger](css/css-trigger.md)
   * [Column break-inside](css/column-break-inside.md)
@@ -17,6 +18,7 @@
   * [Trick to measure Render calls](react/trick-to-measure-render-calls.md)
   * [Useful snippets](react/useful-snippets.md)
   * [Clean Code vs. Dirty Code: React Best Practices](react/clean-code-vs.-dirty-code-react-best-practices.md)
+  * [Lessons Learned Using React-Redux](react/lessons-learned-using-react-redux.md)
 * [vuejs](vuejs.md)
 * [UX](ux/README.md)
   * [Design Better Forms](ux/design-better-forms.md)
@@ -28,5 +30,4 @@
   * [Responsive Chart Config](d3/responsive-chart-config.md)
 * [svg](svg/README.md)
   * [Align lines of text to center in SVG](svg/align-lines-of-text-to-center-in-svg.md)
-* [Lessons Learned Using React-Redux](lessons-learned-using-react-redux.md)
 
