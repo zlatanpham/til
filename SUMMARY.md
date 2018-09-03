@@ -32,4 +32,5 @@
   * [Align lines of text to center in SVG](svg/align-lines-of-text-to-center-in-svg.md)
 * [Tools](tools/README.md)
   * [iTerm](tools/iterm.md)
+* [Misc](misc.md)
 
