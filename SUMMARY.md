@@ -1,6 +1,6 @@
 # Table of contents
 
-* [JavaScript](README.md)
+* [Today I Learned](README.md)
 * [javascript](javascript/README.md)
   * [Put callback first for elegance](javascript/put-callback-first-for-elegance.md)
   * [Why Curry Helps](javascript/why-curry-helps.md)
