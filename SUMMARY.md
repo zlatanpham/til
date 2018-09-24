@@ -7,6 +7,7 @@
   * [Favoring Curry](javascript/favoring-curry.md)
   * [Null vs. Undefined](javascript/null-vs.-undefined.md)
   * [ES6 features I missed](javascript/es6-features-i-missed.md)
+  * [Preview for file input](javascript/file-upload-get-url-for-background-image.md)
 * [css](css/README.md)
   * [CSS trigger](css/css-trigger.md)
   * [Column break-inside](css/column-break-inside.md)
