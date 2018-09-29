@@ -14,9 +14,8 @@ const width = viewBoxWidth - margin.left - margin.right;
 const height = viewBoxHeight - margin.top - margin.bottom;
 const columnWidth = 20;
 const columnSpacing = 5;
-const skills = data.map(t => t.skill);
 
-this.svg = d3
+const svg = d3
   .select(this.target)
   .append('svg')
   .attr('width', '100%')
