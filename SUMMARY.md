@@ -13,6 +13,7 @@
   * [Column break-inside](css/column-break-inside.md)
   * [Cascading SVG Fill Color](css/cascading-svg-fill-color.md)
   * [Hot-css-tips](css/hot-css-tips.md)
+  * [CSS selector tips & tricks](css/css-selector-tips-and-tricks.md)
 * [html](html.md)
 * [react](react/README.md)
   * [Single Element Pattern](react/single-element-pattern.md)
