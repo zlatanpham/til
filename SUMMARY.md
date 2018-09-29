@@ -20,6 +20,7 @@
   * [Useful snippets](react/useful-snippets.md)
   * [Clean Code vs. Dirty Code: React Best Practices](react/clean-code-vs.-dirty-code-react-best-practices.md)
   * [Lessons Learned Using React-Redux](react/lessons-learned-using-react-redux.md)
+  * [React & Redux mechanism](react/react-and-redux-mechanism.md)
 * [vuejs](vuejs.md)
 * [UX](ux/README.md)
   * [Design Better Forms](ux/design-better-forms.md)
