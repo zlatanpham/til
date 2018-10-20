@@ -22,6 +22,7 @@
   * [Clean Code vs. Dirty Code: React Best Practices](react/clean-code-vs.-dirty-code-react-best-practices.md)
   * [Lessons Learned Using React-Redux](react/lessons-learned-using-react-redux.md)
   * [React & Redux mechanism](react/react-and-redux-mechanism.md)
+  * [Render Prop: why prefer using this.props.children over this.props.render](react/render-prop-why-prefer-using-this.props.children-over-this.props.render.md)
 * [vuejs](vuejs.md)
 * [UX](ux/README.md)
   * [Design Better Forms](ux/design-better-forms.md)
