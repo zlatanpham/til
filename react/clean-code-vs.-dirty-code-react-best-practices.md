@@ -2,7 +2,7 @@
 
 his article will focus on clean code practices as they apply to modern React software development. I’ll also talk about some of the “sugar” that ES6/ES2015 brings to the table.
 
-### What is clean code, and why do I care? {#what-is-clean-code-and-why-do-i-care}
+### What is clean code, and why do I care? <a id="what-is-clean-code-and-why-do-i-care"></a>
 
 Clean code is a consistent style of programming that makes your code easier to write, read, and maintain. Often a developer spends time on a problem, and once the problem is solved, they make a pull request. I contend that you aren’t done just because your code “works.”
 
@@ -12,11 +12,11 @@ In simpler terms, write code that you would be proud to take home and show your 
 
 Why do you care? Because if you’re a good developer, you’re lazy. Hear me out – I mean that as a compliment. A good developer, when faced with a situation where they have to do something more than once, will generally find an automated \(or better\) solution to complete the task at hand. So because you’re lazy, subscribing to clean-code techniques will decrease the frequency of changes from pull-request code reviews and the need to come back to the same piece of code over and over.
 
-#### Clean code passes the “smell test” {#clean-code-passes-the-smell-test}
+#### Clean code passes the “smell test” <a id="clean-code-passes-the-smell-test"></a>
 
 Clean code should pass the smell test. What do I mean by that? We’ve all looked at code \(our own or others’\) and said, “Something’s not quite right here.” Remember, if it doesn’t feel right, it probably isn’t. Code that’s well thought out just comes together. If it feels like you’re trying to fit a square peg into a round hole, then pause, step back, and take a break. Nine times out of 10, you’ll come up with a better solution.
 
-#### Clean code is DRY {#clean-code-is-dry}
+#### Clean code is DRY <a id="clean-code-is-dry"></a>
 
 DRY is an acronym that stands for “Don’t Repeat Yourself.” If you are doing the same thing in multiple places, consolidate the duplicate code. If you see patterns in your code, that is an indication it is prime for DRYing. Sometimes this means standing back from the screen until you can’t read the text and literally looking for patterns.
 
@@ -47,13 +47,13 @@ Sometimes – as in our example above – DRYing your code may actually increase
 
 Be warned that it’s possible to go _too_ far with DRYing up your code, so know when to say when.
 
-#### Clean code is predictable and testable {#clean-code-is-predictable-and-testable}
+#### Clean code is predictable and testable <a id="clean-code-is-predictable-and-testable"></a>
 
 Writing unit tests is not just a good idea, it’s become almost mandatory. After all, how can you be sure that your latest shiny new feature didn’t introduce a bug somewhere else?
 
 Many React developers rely on [Jest](https://facebook.github.io/jest/) for a zero-configuration test runner and to produce code coverage reports. And if you’re interested in visual before/after comparison testing, please check out American Express’s own [Jest Image Snapshot](https://github.com/americanexpress/jest-image-snapshot).
 
-#### Clean code is self-commenting {#clean-code-is-self-commenting}
+#### Clean code is self-commenting <a id="clean-code-is-self-commenting"></a>
 
 Has this happened to you before? You wrote some code and made sure that it was fully commented. As will happen, you found a bug, so you went back and changed the code. Did you remember to change your comments as well to reflect the new logic? Maybe. Maybe not. The next person who looked at your code then may have gone down a rabbit hole because they focused on the comments.
 
@@ -79,7 +79,7 @@ const fetchUser = (id) => (
 );
 ```
 
-#### Naming things {#naming-things}
+#### Naming things <a id="naming-things"></a>
 
 In my previous article [Function as Child Components Are an Anti-Pattern](https://americanexpress.io/faccs-are-an-antipattern), I stressed the importance of naming things. We should all give serious thought to variable names, function names, and even filenames.
 
@@ -113,7 +113,7 @@ Here are a few guidelines:
   };
   ```
 
-#### Clean code follows proven design patterns and best practices {#clean-code-follows-proven-design-patterns-and-best-practices}
+#### Clean code follows proven design patterns and best practices <a id="clean-code-follows-proven-design-patterns-and-best-practices"></a>
 
 Computers have been around a long time. Throughout the years, programmers discovered patterns in the way they solved certain problems. These are called design patterns. In other words, there are algorithms that have been proved over time to work, so you should stand on the shoulders of those who preceded you so that you don’t have to make the same mistakes.
 
@@ -125,15 +125,15 @@ Here are some best practices to follow when architecting your React applications
 * Be on the lookout for leaky abstractions. In other words, don’t impose your internal requirements on consumers of your code.
 * Follow strict linting rules. This will help you write clean, consistent code.
 
-#### Clean code doesn’t \(necessarily\) take longer to write {#clean-code-doesnt-necessarily-take-longer-to-write}
+#### Clean code doesn’t \(necessarily\) take longer to write <a id="clean-code-doesnt-necessarily-take-longer-to-write"></a>
 
 I hear the argument all the time that writing clean code will slow productivity. That’s a bunch of hooey. Yes, initially you may need to slow down before you can speed up, but eventually your pace will increase as you are writing fewer lines of code.
 
 And don’t discount the “rewrite factor” and time spent fixing comments from code reviews. If you break your code into small modules, each with a single responsibility, it’s likely that you’ll never have to touch most modules again. There is time saved in “write it and forget it.”
 
-### Practical examples of dirty code vs. clean code {#practical-examples-of-dirty-code-vs-clean-code}
+### Practical examples of dirty code vs. clean code <a id="practical-examples-of-dirty-code-vs-clean-code"></a>
 
-#### DRY up this code {#dry-up-this-code}
+#### DRY up this code <a id="dry-up-this-code"></a>
 
 Take a look at the code sample below. Go ahead and step back from your monitor as I described above. Do you see any patterns? Notice that the component `Thingie` is identical to `ThingieWithTitle` with the exception of the `Title` component. This is a perfect candidate for DRYing.
 
@@ -177,7 +177,7 @@ export const ThingieWithTitle = ({ title, ...others }) => (
 );
 ```
 
-#### Default values {#default-values}
+#### Default values <a id="default-values"></a>
 
 Take a look at the following code snippet. It defaults the `className` to “icon-large” using a logical OR statement, similar to the way your grandfather might have done it.
 
@@ -225,7 +225,7 @@ import defaultProps from './defaultProps';
 Icon.defaultProps = defaultProps.Icon;
 ```
 
-#### Separate stateful aspects from rendering {#separate-stateful-aspects-from-rendering}
+#### Separate stateful aspects from rendering <a id="separate-stateful-aspects-from-rendering"></a>
 
 Mixing your stateful data-loading logic with your rendering \(or presentation\) logic can lead to component complexity. Instead, write a stateful container component whose single responsibility is to load the data. Then write another component whose sole responsibility is to display the data. This is called the [Container Pattern](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0).
 
@@ -278,7 +278,7 @@ class User extends Component {
 }
 ```
 
-#### Use stateless functional components {#use-stateless-functional-components}
+#### Use stateless functional components <a id="use-stateless-functional-components"></a>
 
 Stateless functional components \(SFCs\) were introduced in React v0.14.0, and they are used to greatly simplify a render-only component. But some developers haven’t let go of the past. For example, the following component is ripe for converting to an SFC.
 
@@ -306,7 +306,7 @@ const TableRowWrapper = ({ children }) => (
 );
 ```
 
-#### Rest/spread {#restspread}
+#### Rest/spread <a id="restspread"></a>
 
 About a year ago, it was my belief that `Object.assign` would become everyone’s new best friend. Well times have changed. Enter the [rest/spread spec](https://github.com/tc39/proposal-object-rest-spread) in ES2016/ES7.
 
@@ -338,7 +338,7 @@ const MyComponent = ({ className, ...others }) => (
 
 We take the “rest” of the properties and we “spread” them as new props to `MyOtherComponent`. \(Sometimes things just name themselves…\)
 
-#### Destructure when applicable {#destructure-when-applicable}
+#### Destructure when applicable <a id="destructure-when-applicable"></a>
 
 ES6 introduced the concept of [destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment), which really _is_ your best friend. Destructuring allows you to “pull apart” properties of an object or elements of an array.
 
@@ -382,7 +382,7 @@ In the clean version, ES6 has you covered.
 const [language, country] = locale.split('-');
 ```
 
-### In conclusion… {#in-conclusion}
+### In conclusion… <a id="in-conclusion"></a>
 
 I hope that I’ve helped you see the benefits of writing clean code and that you can even use some of the practical examples presented here. Once you embrace writing clean code, it will become second nature. You \(and your future self\) will soon appreciate the “write it and forget it” way of life.
 

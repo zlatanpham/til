@@ -221,7 +221,7 @@ That’s just one simple common scenario. Sometimes you’ll have no choice but 
 
 Another way you can use is just passing on an id array and then make each `<TodoItem/>` a connected component that receive to-do id as a prop. The small `TodoItem` component will know to select the to-do from the state and if `mapStateToProps` is implemented correctly, a render call will only happen when the relevant to-do is changed. You can refer to the following [Tree View example in the Redux repository](https://github.com/reduxjs/redux/tree/master/examples/tree-view).
 
-#### Conclusion {#8321}
+#### Conclusion <a id="8321"></a>
 
 As we discovered overtime it’s pretty easy to encounter performance issue with React using Redux in medium to large applications.
 

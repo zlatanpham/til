@@ -4,7 +4,7 @@ A programmer’s pipe-dream is to write code, and be able to use it repeatedly w
 
 [curry](https://npmjs.org/package/curry) can help.
 
-### What is currying, and why is it so damn tasty? {#what-is-currying-and-why-is-it-so-damn-tasty}
+### What is currying, and why is it so damn tasty? <a id="what-is-currying-and-why-is-it-so-damn-tasty"></a>
 
 Normal function invocation in JavaScript goes something like this:
 
@@ -45,14 +45,14 @@ sum3(1)(2, 3) //= 6
 sum3(1, 2)(3) //= 6
 ```
 
-### So .. what? {#so--what}
+### So .. what? <a id="so--what"></a>
 
 If you’re not used to languages in which curried functions are part of daily life \([Haskell](http://learnyouahaskell.com/) comes to mind\), it’s probably not obvious what advantage this gives us. To my mind, the two main ones are:
 
 * Little pieces can be configured and reused with ease, without clutter;
 * Functions are used throughout.
 
-#### The little pieces {#the-little-pieces}
+#### The little pieces <a id="the-little-pieces"></a>
 
 Let’s take an obvious example; mapping over a collection to get the ids of its members:
 
@@ -94,7 +94,7 @@ getIDs(objects) //= [1, 2, 3]
 
 We’re starting to see that, if our basic building blocks are curried functions, we can easily create fresh, new functionality from them. Even more excitingly, the code reads like the logic of the domain you’re working in.
 
-#### Functions through and through {#functions-through-and-through}
+#### Functions through and through <a id="functions-through-and-through"></a>
 
 Another advantage of this approach is that it encourages the creation of functions; rather than of methods. While methods are beautiful things - allowing polymorphism, and very readable code - they aren’t always the tool for the job, such as in heavily async code.
 
@@ -136,7 +136,7 @@ fetchFromServer()
 
 This is lean logic, easily expressed; something we couldn’t achieve nearly so easily without curried functions.
 
-## tl;dr {#tldr}
+## tl;dr <a id="tldr"></a>
 
 [curry](https://npmjs.org/package/curry) gives you a tantalising amount of expressive power.
 

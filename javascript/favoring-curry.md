@@ -57,7 +57,7 @@ je('Jones'); //=> 'James Earl Jones' (actor, Vader)
 
 \(Some will insist that what we're doing is more properly called "partial application", and that "currying" should be reserved for the cases where the resulting functions take one parameter, each resolving to a separate new function until all the required parameters have been supplied. They can please feel free to keep on insisting.\)
 
-### Booooooring! What Can You Do For ME? {#booooooringwhatcanyoudoforme}
+### Booooooring! What Can You Do For ME? <a id="booooooringwhatcanyoudoforme"></a>
 
 Here is a slightly more meaningful example. If you want to find the sum of a collection of numbers, you could do this:
 
@@ -102,7 +102,7 @@ var total = R.reduce(add, 0); //=> function:: [Number] -> Number
 var sum =   R.reduce(add, 0, numbers); //=> 15
 ```
 
-### Don't Care: I'm Not a Math Geek! {#dontcareimnotamathgeek}
+### Don't Care: I'm Not a Math Geek! <a id="dontcareimnotamathgeek"></a>
 
 So you do web development, huh? You make AJAX calls to the server? You're using [Promises](http://promises-aplus.github.io/promises-spec/), I hope? Do you have to manipulate the data that comes back, filter it, subset it? Or you do server-side development? You asynchronously query a no-SQL database, and manipulate those results?
 
@@ -297,7 +297,7 @@ OK, remember sitting in school, waiting for the for the class to end? The minute
 
 We already talked about `get`. Curried like this, it returns a function that, given an object, returns its `dueDate` property. We pass this into `sortBy`, which takes a function such as this and a list and sorts the list based on the values returned by the function against the elements of the list. But wait, we don't have a list, right? Of course not. We're curried again. But when we're invoked by `.then()`, it will receive the list, passing each object to `get`, and sorting based on the results.
 
-### So How Important Is The Currying? {#sohowimportantisthecurrying}
+### So How Important Is The Currying? <a id="sohowimportantisthecurrying"></a>
 
 This example is demonstrating the Ramda utility functions alongside the currying aspects of Ramda. Perhaps the currying is not really that important. Let's try to rewrite that without the currying:
 
@@ -358,7 +358,7 @@ There's one other that's brand-new. I just saw it today. We'll see if it stands 
 
 * [Put callback first for elegance](https://glebbahmutov.com/blog/put-callback-first-for-elegance/), Gleb Bahmutov
 
-### A Dirty Little Secret {#adirtylittlesecret}
+### A Dirty Little Secret <a id="adirtylittlesecret"></a>
 
 Currying, as powerful as it is, is not enough to make your code elegant.
 
