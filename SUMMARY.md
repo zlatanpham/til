@@ -52,4 +52,5 @@
 
 * [TypeScript](tips-and-tricks/typescript.md)
 * [Terminal](tips-and-tricks/untitled.md)
+* [JavaScript](tips-and-tricks/javascript.md)
 
