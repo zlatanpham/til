@@ -30,7 +30,7 @@ This code does exactly what you need: it creates a circle element for each data 
 
 Here’s the deal. Instead of telling D3 how to do something, tell D3 what you want. You want the circle elements to correspond to data. You want one circle per datum. Instead of instructing D3 to create circles, then, tell D3 that the selection `"circle"` should correspond to data. This concept is called the data join:
 
-![](../.gitbook/assets/screen-shot-2018-07-14-at-3.45.03-pm.png)
+![](../../.gitbook/assets/screen-shot-2018-07-14-at-3.45.03-pm.png)
 
 Data points joined to existing elements produce the update \(inner\) selection. Leftover unbound data produce the enter selection \(left\), which represents missing elements. Likewise, any remaining unbound elements produce the exit selection \(right\), which represents elements to be removed.
 
