@@ -27,6 +27,7 @@
 * [vuejs](vuejs.md)
 * [UX](ux/README.md)
   * [Design Better Forms](ux/design-better-forms.md)
+  * [Laws of UX](ux/laws-of-ux.md)
 * [design](design.md)
 * [motion](motion.md)
 * [thebestdesigns](thebestdesigns.md)
