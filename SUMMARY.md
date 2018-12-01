@@ -19,6 +19,7 @@
   * [Null vs. Undefined](programming/javascript/null-vs.-undefined.md)
   * [ES6 features I missed](programming/javascript/es6-features-i-missed.md)
   * [Preview for file input](programming/javascript/file-upload-get-url-for-background-image.md)
+  * [Page Visibility API](programming/javascript/page-visibility-api.md)
 * [typescript](programming/typescript/README.md)
   * [Interfaces vs. Type Aliases](programming/typescript/interfaces-vs.-type-aliases.md)
 * [css](programming/css/README.md)
