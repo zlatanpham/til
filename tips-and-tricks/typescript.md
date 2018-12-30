@@ -1,13 +1,13 @@
 # TypeScript
 
-## Ignore library missing type definition
+### Ignore library missing type definition
 
 ```typescript
 // @ts-ignore: component missing type defs
 import library from 'library'
 ```
 
-## Type for React HTMLElement
+### Type for React HTMLElement
 
 ```jsx
 export const Button = ({
@@ -21,7 +21,7 @@ export const Button = ({
 );
 ```
 
-## Extend and overwrite 
+### Extend and overwrite 
 
 ```typescript
 type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>;
