@@ -21,3 +21,20 @@ export const Button = ({
 );
 ```
 
+## Extend and overwrite 
+
+```typescript
+type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>;
+
+interface BaseInterface{
+  A: string,
+  B: number
+}
+
+export interface ExtendedInterface
+  extends Omit<BaseInteface, "A"> {
+  A: number
+  C: number
+}
+```
+
