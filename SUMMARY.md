@@ -57,4 +57,5 @@
 * [Terminal](tips-and-tricks/untitled.md)
 * [JavaScript](tips-and-tricks/javascript.md)
 * [CSS](tips-and-tricks/css.md)
+* [React](tips-and-tricks/react.md)
 
