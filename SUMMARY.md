@@ -32,7 +32,6 @@
 * [html](programming/html.md)
 * [react](programming/react/README.md)
   * [Single Element Pattern](programming/react/single-element-pattern.md)
-  * [Trick to measure Render calls](programming/react/trick-to-measure-render-calls.md)
   * [Useful snippets](programming/react/useful-snippets.md)
   * [Clean Code vs. Dirty Code: React Best Practices](programming/react/clean-code-vs.-dirty-code-react-best-practices.md)
   * [Lessons Learned Using React-Redux](programming/react/lessons-learned-using-react-redux.md)
