@@ -13,5 +13,21 @@ class RenderCount extends React.Component {
 }
 ```
 
-​
+### ​Media queries for css-in-js
+
+```jsx
+const mq = {
+  sm: '@media (min-width: 576px)',
+  md: '@media (min-width: 768px)',
+  lg: '@media (min-width: 992px)',
+  xl: '@media (min-width: 1200px)',
+};
+
+export const Container = styled('div')({
+  padding: '30px',
+  [mq['sm']]: {
+    padding: '20px',
+  },
+});
+```
 
