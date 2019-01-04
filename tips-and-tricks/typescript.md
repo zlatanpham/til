@@ -38,3 +38,27 @@ export interface ExtendedInterface
 }
 ```
 
+### Binding events
+
+Binding events to a DOM node
+
+```jsx
+// If
+componentDidMount(){
+    document.addEventListener('mouseup', this.handleMouseUp);
+}
+// then
+handleMouseUp = (e: MouseEvent) => {};
+```
+
+However, if the method was bound to a `React` component
+
+```jsx
+// If
+render(){
+    return <div onMouseUp={this.handleMouseUp} />
+}
+// then
+handleMouseUp = (e: React.MouseEvent<HTMLDivElement>) => {};
+```
+
