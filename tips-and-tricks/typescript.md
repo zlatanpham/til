@@ -74,3 +74,29 @@ interface ComponentProps{
 }
 ```
 
+### Partial
+
+Sometimes we partially want to get some properties from an interface but not required to know those properties, particularly, in case of React `setState`.  Then `Partial` will match the case:
+
+```typescript
+type Partial<T> = { [P in keyof T]?: T[P] };
+
+interface MyComponentState{
+    propertyOne: number,
+    propertyTwo: string,
+    propertyThree: boolean
+}
+
+type StateToSetType =
+  | ((prevState: MyComponentState) => Partial<MyComponentState>)
+  | Partial<MyComponentState>;
+
+class MyComponent extends React.Component<any, MyComponentState>{
+  internalSetState = (stateToSet: StateToSetType, cb?: () => void) => {
+    return this.setState((state: FilterMenuItemState) => {
+      return typeof stateToSet === 'function' ? stateToSet(state) : stateToSet;              
+    }, cb);
+  };
+}
+```
+
