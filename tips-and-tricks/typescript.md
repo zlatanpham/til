@@ -62,3 +62,15 @@ render(){
 handleMouseUp = (e: React.MouseEvent<HTMLDivElement>) => {};
 ```
 
+### Render prop children
+
+```jsx
+interface StateAndHelperType{
+    // Type definition
+}
+
+interface ComponentProps{
+    children: (args: StateAndHelpersType) => JSX.Element
+}
+```
+
