@@ -31,3 +31,41 @@ export const Container = styled('div')({
 });
 ```
 
+### State Reducer Pattern
+
+Although the state of a component should be encapsulated, it's sometimes useful to break the rule to maximize the flexibility of your component.
+
+```jsx
+class MyComponent extends React.Component{
+    internalSetState = (stateToSet, callback) => {
+        this.setState(prevState => {
+            let newStateToSet = typeof stateToSet === 'function' ? stateToSet(prevState) : stateToSet;
+            // Pass through a stateReducer
+            newStateToSet = this.props.stateReducer(prevState, newStateToSet);            
+            
+            const newState = {};
+            Object.keys(newStateToSet).forEach(key => {
+                if(prevState[key] !== newStateToSet[key]){
+                    nextState[key] = newStateToSet[key]
+                }
+            });            
+            
+            return newState;
+        }, callback)
+    }
+    // Then use this.internalSetState instead of this.setState
+}
+
+class App extends React.Component{
+    // stateReducer(prevState, newStateToSet)
+    stateReducer(currentState, changes){
+        const newState = // Some modification based on currentState & changes                
+        return newState;
+    }
+    
+    render(){
+        <MyComponent stateReducer={this.stateReducer}/>
+    }
+}
+```
+
