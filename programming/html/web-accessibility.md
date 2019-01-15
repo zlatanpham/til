@@ -30,3 +30,5 @@ Note the `role` attribute on the outer `<ul>` element. This attribute does not a
 
 {% embed url="https://www.w3.org/WAI/GL/wiki/Using\_ARIA\_menus" %}
 
+{% embed url="https://rawgit.com/w3c/aria-practices/master/aria-practices-DeletedSectionsArchive.html\#ariaBackground" %}
+
