@@ -1,6 +1,6 @@
 # CSS
 
-## Get rid of extra space below svg in div element
+### Get rid of extra space below svg in div element
 
 ```markup
 <div style="background-color: red;">
@@ -17,4 +17,10 @@
 This is because inline-block elements \(like `<svg>` and `<img>`\) sit on the text baseline. The extra space you are seeing is the space left to accommodate character descenders \(the tail on 'y', 'g' etc\).
 
 You can also use `vertical-align:top` if you need to keep it `inline` or `inline-block`
+
+### Prevent scaling block from changing its inside number
+
+{% embed url="https://twitter.com/tyvdh/status/1086349768853463040" %}
+
+
 
