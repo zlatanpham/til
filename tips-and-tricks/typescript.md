@@ -100,3 +100,27 @@ class MyComponent extends React.Component<any, MyComponentState>{
 }
 ```
 
+### Object with specific properties
+
+```typescript
+export type StyleString = 'absolute' | 'relative';
+
+type Styles = { [key in StyleString]: CSSObject };
+
+// This will enforce 
+const styles : Styles = {
+    absolute: {...},
+    relative: {...}
+}
+```
+
+In this way, you can reuse the `StyleString` as well as do not have to write boilerplate interface:
+
+```typescript
+interface Styles{
+    absolute: CSSObject;
+    relative: CSSObject;
+    .....
+}
+```
+
