@@ -124,3 +124,67 @@ interface Styles{
 }
 ```
 
+### Use generic for a component having a prop accepting other component
+
+Generic is useful to maximize the flexibility of a component. Following demonstrates a `ParentComponent` enforces the `ChildComponent` to have a prop `isActive` but still allowing the `ChildComponent` having its own props through generic: 
+
+```typescript
+interface MyComponentProps<T> {
+  ChildComponent: React.ComponentType<ChildComponentProps<T>>;
+  childProps: T;
+}
+
+type ChildComponentProps<T> = T & {
+  isActive: boolean;
+};
+
+interface MyComponentState {
+  isActive: boolean;
+}
+
+class MyComponent<T> extends Component<MyComponentProps<T>, MyComponentState> {
+  state = {
+    isActive: false,
+  };
+  render() {
+    const { ChildComponent, childProps } = this.props;
+    return (
+      <div>
+        <ChildComponent isActive={this.state.isActive} {...childProps} />
+      </div>
+    );
+  }
+}
+```
+
+Quick usage:
+
+```typescript
+interface CustomChildProps {
+  count: number;
+}
+
+interface ChildProps extends CustomChildProps {
+  isActive: boolean;
+}
+
+const CustomChild = ({ count, isActive }: ChildProps) => (
+  <div>{isActive && count}</div>
+);
+
+class CustomComponent extends MyComponent<CustomChildProps> {}
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <CustomComponent
+          childProps={{ count: 2 }}
+          ChildComponent={CustomChild}
+        />
+      </div>
+    );
+  }
+}
+```
+
