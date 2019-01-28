@@ -55,7 +55,7 @@
 ## Tips & Tricks
 
 * [TypeScript](tips-and-tricks/typescript.md)
-* [Terminal](tips-and-tricks/untitled.md)
+* [Bash](tips-and-tricks/bash.md)
 * [JavaScript](tips-and-tricks/javascript.md)
 * [CSS](tips-and-tricks/css.md)
 * [React](tips-and-tricks/react.md)

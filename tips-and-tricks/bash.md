@@ -1,4 +1,4 @@
-# Terminal
+# Bash
 
 ### Quickly copy file content
 
