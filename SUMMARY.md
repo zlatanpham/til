@@ -32,6 +32,7 @@
 * [html](programming/html/README.md)
   * [The performance benefits of rel=noopener](programming/html/the-performance-benefits-of-rel-noopener.md)
   * [Web Accessibility](programming/html/web-accessibility.md)
+  * [Link contains links issue](programming/html/link-contains-links-issue.md)
 * [react](programming/react/README.md)
   * [Single Element Pattern](programming/react/single-element-pattern.md)
   * [Useful snippets](programming/react/useful-snippets.md)
