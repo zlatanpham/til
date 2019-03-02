@@ -63,3 +63,5 @@ To summarize, here are the six lessons I am taking away for my next projects:
 5. Deliberately assess cutting edge technologies, bias towards conservative choices.
 6. Be open with your roadmap to learn about your users priorities.
 
+[https://mxstbr.com/thoughts/tech-choice-regrets-at-spectrum/](https://mxstbr.com/thoughts/tech-choice-regrets-at-spectrum/)
+
