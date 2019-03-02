@@ -51,7 +51,8 @@
 * [Tools](programming/tools/README.md)
   * [iTerm](programming/tools/iterm.md)
   * [Chrome DevTools](programming/tools/chrome-devtools.md)
-* [Misc](programming/misc.md)
+* [Misc](programming/misc/README.md)
+  * [What I did wrong as CTO](programming/misc/what-i-did-wrong-as-cto.md)
 
 ## Tips & Tricks
 
