@@ -1,5 +1,13 @@
 # React
 
+### Run console.log in JSX
+
+```jsx
+return (
+    console.log(‘foo foo’) || <Component argument={console.log(foo) || bar} />
+)
+```
+
 ### Trick to measure Render calls
 
 Place `RenderCount` inside a component, the counter will be added by 1 while its parent `re-render`. This is a tricky way to detect render waste.
