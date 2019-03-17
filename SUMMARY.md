@@ -59,6 +59,7 @@
 
 * [TypeScript](tips-and-tricks/typescript.md)
 * [Bash](tips-and-tricks/bash.md)
+* [Vim](tips-and-tricks/vim.md)
 * [JavaScript](tips-and-tricks/javascript.md)
 * [CSS](tips-and-tricks/css.md)
 * [React](tips-and-tricks/react.md)
