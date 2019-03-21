@@ -3,7 +3,7 @@
 ## Select within single quote or parentheses
 
 ```bash
-vi'
+vi' | vi" | vi[ | ect...
 ```
 
 ## Move line\(s\) up and down with ALT+jk
@@ -21,5 +21,9 @@ vnoremap º :m '<-2<CR>gv=gv
 
 {% embed url="http://vim.wikia.com/wiki/Moving\_lines\_up\_or\_down" %}
 
+## Remove content inside braces/quotes with insert mode
 
+```text
+ci{ | ci" | ci[ | ect...
+```
 
