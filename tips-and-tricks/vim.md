@@ -1,10 +1,32 @@
 # Vim
 
-## Select within single quote or parentheses
+## Mouseless with vim
 
-```bash
-vi' | vi" | vi[ | ect...
-```
+{% embed url="https://www.youtube.com/watch?v=E-ZbrtoSuzw" %}
+
+![](../.gitbook/assets/text-object.png)
+
+![](../.gitbook/assets/text-object.png)
+
+![](../.gitbook/assets/combination.png)
+
+![](../.gitbook/assets/motions.png)
+
+![](../.gitbook/assets/scrolling.png)
+
+![](../.gitbook/assets/find.png)
+
+![](../.gitbook/assets/marks.png)
+
+![](../.gitbook/assets/jumplist.png)
+
+![](../.gitbook/assets/buffer.png)
+
+![](../.gitbook/assets/window-buffer.png)
+
+![](../.gitbook/assets/tabs.png)
+
+![](../.gitbook/assets/buffer.png)
 
 ## Move line\(s\) up and down with ALT+jk
 
@@ -20,16 +42,4 @@ vnoremap º :m '<-2<CR>gv=gv
 ```
 
 {% embed url="http://vim.wikia.com/wiki/Moving\_lines\_up\_or\_down" %}
-
-## Remove content inside braces/quotes with insert mode
-
-```text
-ci{ | ci" | ci[ | ect...
-```
-
-For html tag
-
-```text
-cit
-```
 
