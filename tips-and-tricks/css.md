@@ -1,6 +1,6 @@
 # CSS
 
-### Get rid of extra space below svg in div element
+## Get rid of extra space below svg in div element
 
 ```markup
 <div style="background-color: red;">
@@ -18,9 +18,17 @@ This is because inline-block elements \(like `<svg>` and `<img>`\) sit on the te
 
 You can also use `vertical-align:top` if you need to keep it `inline` or `inline-block`
 
-### Prevent scaling block from changing its inside number
+## Prevent scaling block from changing its inside number
 
 {% embed url="https://twitter.com/tyvdh/status/1086349768853463040" %}
 
+## Responsive Text Truncation
 
+![](../.gitbook/assets/truncate-responsive.gif)
+
+```css
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+```
 
