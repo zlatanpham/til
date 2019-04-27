@@ -40,6 +40,7 @@
   * [Lessons Learned Using React-Redux](programming/react/lessons-learned-using-react-redux.md)
   * [React & Redux mechanism](programming/react/react-and-redux-mechanism.md)
   * [Render Prop: why prefer using this.props.children over this.props.render](programming/react/render-prop-why-prefer-using-this.props.children-over-this.props.render.md)
+  * [Scaling React.js Applications - Max Stoiber](programming/react/scaling-react.js-applications-max-stoiber.md)
 * [vuejs](programming/vuejs.md)
 * [thebestdesigns](programming/thebestdesigns.md)
 * [d3](programming/d3/README.md)
