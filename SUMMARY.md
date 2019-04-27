@@ -20,7 +20,7 @@
   * [ES6 features I missed](programming/javascript/es6-features-i-missed.md)
   * [Preview for file input](programming/javascript/file-upload-get-url-for-background-image.md)
   * [Page Visibility API](programming/javascript/page-visibility-api.md)
-* [Tail call optimization in ECMAScript 6](programming/tail-call-optimization-in-ecmascript-6.md)
+  * [Tail call optimization in ECMAScript 6](programming/javascript/tail-call-optimization-in-ecmascript-6.md)
 * [typescript](programming/typescript/README.md)
   * [Interfaces vs. Type Aliases](programming/typescript/interfaces-vs.-type-aliases.md)
 * [css](programming/css/README.md)

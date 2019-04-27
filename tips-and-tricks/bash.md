@@ -4,6 +4,8 @@
 
 ```bash
 cat ~/Desktop/ded.html | pbcopy
+// or
+pbcopy < ~/Desktop/ded.html
 ```
 
 
