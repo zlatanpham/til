@@ -1,5 +1,29 @@
 # React
 
+### Create constant with useRef
+
+useRef can serve as a constant to prevent reinitiate a variable if a function component re-called. 
+
+```jsx
+import {useRef, useEffect} from 'react'
+
+function Component(){
+    const firstRenderRef = useRef();
+    const intervalRef = useRef();
+    
+    useEffect(() => {
+        if(!firstRenderRef.current){
+            doOnlyForFirstRenderCall();
+            firstRenderRef.current = false;
+        }
+        intervalRef.current = window.setInterval(() => {...}, 100)
+        () => {
+            window.clearInterval(intervalRef.current)
+        }
+    },[])        
+}
+```
+
 ### Run console.log in JSX
 
 ```jsx
