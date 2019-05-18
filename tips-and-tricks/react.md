@@ -1,8 +1,24 @@
 # React
 
+### Reduce the complexity of useReducer if the state is simple
+
+Instead of the tradition params of `state` and `action`, treat `action` as the `newState` and do the merging.
+
+```jsx
+import {useReduce} from 'react'
+
+function reducer = (oldState, newState) => ({...oldState, ...newState})
+
+function Component() {
+    const [{count}, dispatch] = useReducer(reducer, {count: 0 });
+    
+    render <button onClick={() => dispatch({count: count + 1});}>{count}</button>
+}
+```
+
 ### Create constant with useRef
 
-useRef can serve as a constant to prevent reinitiate a variable if a function component re-called. 
+useRef can serve as a constant inside a function component to prevent reinitiate a variable if the function re-called. 
 
 ```jsx
 import {useRef, useEffect} from 'react'
