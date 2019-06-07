@@ -35,6 +35,7 @@
   * [Web Accessibility](programming/html/web-accessibility.md)
   * [Link contains links issue](programming/html/link-contains-links-issue.md)
 * [react](programming/react/README.md)
+  * [NW times mono repo case study](programming/react/nw-times-mono-repo-case-study.md)
   * [Single Element Pattern](programming/react/single-element-pattern.md)
   * [Useful snippets](programming/react/useful-snippets.md)
   * [Clean Code vs. Dirty Code: React Best Practices](programming/react/clean-code-vs.-dirty-code-react-best-practices.md)
