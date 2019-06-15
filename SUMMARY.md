@@ -57,6 +57,7 @@
 * [Misc](programming/misc/README.md)
   * [Tech Choices I Regret at Spectrum](programming/misc/tech-choices-i-regret-at-spectrum.md)
   * [What I did wrong as CTO](programming/misc/what-i-did-wrong-as-cto.md)
+  * [On Being A Senior Engineer](programming/misc/untitled.md)
 
 ## Tips & Tricks
 
