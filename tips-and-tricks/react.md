@@ -1,5 +1,17 @@
 # React
 
+### Don't directly inject objects to props 
+
+Do this will force the child component to re-render when ever the parent component renders even if the child component is a pure component.
+
+```jsx
+function ParentComponent(){
+   return <ChildComponent prop={{myObject: 1}}>....</ChildComponent>
+}
+```
+
+### 
+
 ### Reduce the complexity of useReducer if the state is simple
 
 Instead of the tradition params of `state` and `action`, treat `action` as the `newState` and do the merging.
