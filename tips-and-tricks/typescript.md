@@ -1,5 +1,12 @@
 # TypeScript
 
+### Keys of array \(typescript 3.4\)
+
+```typescript
+const myArray = <const> ['foo', 'bar'];
+type MyArray = typeof myArray[number]; // => type MyArray = 'foo' | 'bar'
+```
+
 ### Ignore library missing type definition
 
 ```typescript
