@@ -13,6 +13,7 @@
 ## programming
 
 * [javascript](programming/javascript/README.md)
+  * [Detailed JavaScript operation mechanism: talk about Event Loop again](programming/javascript/detailed-javascript-operation-mechanism-talk-about-event-loop-again.md)
   * [Put callback first for elegance](programming/javascript/put-callback-first-for-elegance.md)
   * [Why Curry Helps](programming/javascript/why-curry-helps.md)
   * [Favoring Curry](programming/javascript/favoring-curry.md)
