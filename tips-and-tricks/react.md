@@ -1,5 +1,17 @@
 # React
 
+### useEffect return function is not just for unmount
+
+```jsx
+useEffect(() => {
+   console.log('a')
+   return () => { console.log('b') }
+}, [prop])
+
+// logging when component mounted then the prop changed
+// => a => b => a
+```
+
 ### Don't directly inject objects to props 
 
 Do this will force the child component to re-render when ever the parent component renders even if the child component is a pure component.
