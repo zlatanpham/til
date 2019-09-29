@@ -1,5 +1,21 @@
 # CSS
 
+## Select first n element from list
+
+```css
+.list div{
+  background-color:green;
+  height: 50px;
+  margin-top:1px;
+}
+// turn background of first 3 divs to red
+.list div:nth-child(-n + 3){
+  background-color: red;
+}
+```
+
+![](../.gitbook/assets/screen-shot-2019-09-29-at-11.16.58-am.png)
+
 ## Get rid of extra space below svg in div element
 
 ```markup
