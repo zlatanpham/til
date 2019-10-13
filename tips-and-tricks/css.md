@@ -1,5 +1,19 @@
 # CSS
 
+## Custom Text Underline
+
+There are many problems with the underscores effect implemented by `text-decoration: underline`, such as the inability to control the location, the inability to avoid \(the `text-decoration-skip`, browser is almost unsupported\), and more importantly, it really annoys the `obsessive-compulsive disorder`. In addition, different languages ​​have different alignment habits, Chinese is center-aligned, and English is aligned with the baseline, so it is highly recommended to implement customized underscores.
+
+> `box-shadow` simulate underline effect
+
+```css
+selector {
+    box-shadow: 0 -1px 0 0 #b4a078 inset;
+}
+```
+
+![](../.gitbook/assets/image.png)
+
 ## Select first n element from list
 
 ```css
