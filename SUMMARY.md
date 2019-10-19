@@ -61,12 +61,12 @@
   * [What I did wrong as CTO](programming/misc/what-i-did-wrong-as-cto.md)
   * [On Being A Senior Engineer](programming/misc/untitled.md)
 
-## Tips & Tricks
+## snippets
 
-* [TypeScript](tips-and-tricks/typescript.md)
-* [Bash](tips-and-tricks/bash.md)
-* [Vim](tips-and-tricks/vim.md)
-* [JavaScript](tips-and-tricks/javascript.md)
-* [CSS](tips-and-tricks/css.md)
-* [React](tips-and-tricks/react.md)
+* [TypeScript](snippets/typescript.md)
+* [Bash](snippets/bash.md)
+* [Vim](snippets/vim.md)
+* [JavaScript](snippets/javascript.md)
+* [CSS](snippets/css.md)
+* [React](snippets/react.md)
 
