@@ -2,7 +2,7 @@
 
 Columns do a great job of flowing and balancing content. Unfortunately, not all elements flow gracefully. Sometimes elements get stuck between columns.
 
-![Use break-inside to avoid this default behavior](../../.gitbook/assets/image%20%281%29.png)
+![Use break-inside to avoid this default behavior](../../.gitbook/assets/image%20%282%29.png)
 
 ```css
 -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */

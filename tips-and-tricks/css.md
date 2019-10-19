@@ -1,5 +1,19 @@
 # CSS
 
+## Improve accessibility when focusing on element with output
+
+```css
+@supports (outline-offset: 0) {
+    .btn:focus {
+        outline:1px dotted #37454d;
+        outline-offset: -3px;
+        box-shadow: none
+    }
+}
+```
+
+![](../.gitbook/assets/image%20%281%29.png)
+
 ## Custom Text Underline
 
 There are many problems with the underscores effect implemented by `text-decoration: underline`, such as the inability to control the location, the inability to avoid \(the `text-decoration-skip`, browser is almost unsupported\), and more importantly, it really annoys the `obsessive-compulsive disorder`. In addition, different languages ​​have different alignment habits, Chinese is center-aligned, and English is aligned with the baseline, so it is highly recommended to implement customized underscores.
