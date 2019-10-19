@@ -32,6 +32,7 @@
   * [CSS selector tips & tricks](programming/css/css-selector-tips-and-tricks.md)
   * [Webpage tracking only using CSS \(and no JS\)](programming/css/webpage-tracking-only-using-css-and-no-js.md)
 * [html](programming/html/README.md)
+  * [Kibana Accessibility Guide](programming/html/kibana-accessibility-guide.md)
   * [The performance benefits of rel=noopener](programming/html/the-performance-benefits-of-rel-noopener.md)
   * [Web Accessibility](programming/html/web-accessibility.md)
   * [Link contains links issue](programming/html/link-contains-links-issue.md)
