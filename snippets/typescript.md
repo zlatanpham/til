@@ -1,5 +1,12 @@
 # TypeScript
 
+### Fix Object.keys return string\[\]
+
+```typescript
+const items = {a: ...};
+const keys = Object.keys(items) as Array<keyof typeof items>;
+```
+
 ### Keys of array \(typescript 3.4\)
 
 ```typescript

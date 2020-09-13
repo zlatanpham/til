@@ -242,7 +242,9 @@ Now I generally don’t follow too much on knowledge acquisition as a research t
       </td>
     </tr>
   </tbody>
-</table>The paper goes on to state:
+</table>
+
+The paper goes on to state:
 
 Novices operate from an explicit rules- and knowledge-based perspective. They are deliberate and analytical, and therefore slower to take action, they decide or choose.
 
