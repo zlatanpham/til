@@ -1,5 +1,30 @@
 # TypeScript
 
+### A function requires an object and its key as params
+
+```typescript
+export function groupBy<T, K extends keyof T & (number | string)>(
+  array: T[],
+  key: K,
+): { [id: string]: T[] } {
+  const initialValue: { [id: string]: T[] } = {};
+
+  return array.reduce((accumulator, x) => {
+    const idx: string = x[key] as any;
+
+    // Create an array for the property if one does not exist
+    if (!accumulator[idx]) {
+      accumulator[idx] = [];
+    }
+
+    // Add the item to the property array
+    accumulator[idx].push(x);
+
+    return accumulator;
+  }, initialValue);
+}
+```
+
 ### Fix Object.keys return string\[\]
 
 ```typescript
