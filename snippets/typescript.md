@@ -1,5 +1,13 @@
 # TypeScript
 
+### DeepPartial
+
+```typescript
+type DeepPartial<T> = {
+  [P in keyof T]?: DeepPartial<T[P]>;
+};
+```
+
 ### A function requires an object and its key as params
 
 ```typescript
